@@ -1,20 +1,36 @@
 {
   "name": "spellbook",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/spellbook.umd.cjs",
+  "module": "./dist/spellbook.js",
+  "types": "./dist/lib.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/lib.d.ts",
+      "import": "./dist/spellbook.js",
+      "require": "./dist/spellbook.umd.cjs"
+    }
+  },
+  "version": "0.0.1",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.5.10"
+    "vue": "^3.5.13"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.1.4",
-    "typescript": "^5.5.3",
-    "vite": "^5.4.8",
-    "vue-tsc": "^2.1.6"
+    "@types/node": "^22.13.16",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/tsconfig": "^0.7.0",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0",
+    "vite-plugin-dts": "^4.5.3",
+    "vue-tsc": "^2.2.4"
   }
 }
