@@ -13,7 +13,8 @@
       "types": "./dist/lib.d.ts",
       "import": "./dist/spellbook.js",
       "require": "./dist/spellbook.umd.cjs"
-    }
+    },
+    "./style.css": "./dist/spellbook.css"
   },
   "version": "0.0.1",
   "scripts": {
