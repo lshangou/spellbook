@@ -1,5 +1,4 @@
 # Spellbook
-
 Biblioteca de componentes e funções para projetos com vue.
 
 ## Instalando locamente

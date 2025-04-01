@@ -1,5 +1,5 @@
 <template>
-  <button>
+  <button @click="handleClick">
     <slot>{{ label }}</slot>
   </button>
 </template>
@@ -8,6 +8,9 @@
 defineProps<{
   label?: string;
 }>();
+const handleClick = function () {
+  console.log('click!');
+}
 </script>
 
 <style scoped>
