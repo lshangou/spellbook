@@ -1,4 +1,4 @@
-# Vue 3 + TypeScript + Vite
+# Spellbook
 
 Para buildar e executar em um projeto local:
 ```
