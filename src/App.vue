@@ -1,12 +1,24 @@
 <template>
-  <div>Spellbook Lib</div>
-  <sb-button @click="logConsole">Log Console</sb-button>
+  <div class="workbench">
+    <sb-playing-card></sb-playing-card>
+  </div>
 </template>
 
 <script setup lang="ts">
-import SbButton from './components/SbButton.vue'
-
-const logConsole = function () {
-  console.log('teste')
-}
+import SbPlayingCard from './components/SbPlayingCard.vue';
 </script>
+
+<style>
+body {
+  background-color: #333;
+  margin: 0;
+  padding: 0;
+}
+.workbench {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+</style>

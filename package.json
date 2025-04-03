@@ -34,6 +34,8 @@
     "@vitest/coverage-v8": "^3.1.1",
     "@vue/tsconfig": "^0.7.0",
     "playwright": "^1.51.1",
+    "postcss-custom-properties": "^14.0.4",
+    "postcss-nested": "^7.0.2",
     "typescript": "~5.7.2",
     "vite": "^6.2.0",
     "vite-plugin-dts": "^4.5.3",
