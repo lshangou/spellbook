@@ -1,6 +1,7 @@
 <template>
   <div class="workbench">
     <sb-playing-card></sb-playing-card>
+    <sb-playing-card></sb-playing-card>
   </div>
 </template>
 
