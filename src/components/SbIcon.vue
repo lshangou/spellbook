@@ -16,9 +16,3 @@ withDefaults(defineProps<{
   strokeWidth: 2
 });
 </script>
-
-<style>
-svg {
-  width: 300px;
-}
-</style>
