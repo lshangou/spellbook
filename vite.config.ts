@@ -16,7 +16,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, 'src/lib.ts'),
-      name: 'SpellBook',
+      name: '@shangou/spellbook',
       fileName: 'spellbook',
       formats: ['es', 'umd'],
     },
