@@ -3,11 +3,11 @@ outline: deep
 ---
 
 <script setup>
-import { SbButton } from 'spellbook';
+import { SbButton } from '@shangou/spellbook';
 </script>
 
 <style>
-@import 'spellbook/style.css'
+@import '@shangou/spellbook/style.css'
 </style>
 
 # sb-button

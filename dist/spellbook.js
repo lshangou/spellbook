@@ -2162,7 +2162,7 @@ const oe = /* @__PURE__ */ ee(re), le = ["innerHTML"], ie = /* @__PURE__ */ F({
 }), ye = /* @__PURE__ */ k(se, [["__scopeId", "data-v-3a527d60"]]);
 function de(w) {
   if (w.startsWith("Sb"))
-    return { name: w, from: "spellbook" };
+    return { name: w, from: "@shangou/spellbook" };
 }
 export {
   pe as SbButton,
